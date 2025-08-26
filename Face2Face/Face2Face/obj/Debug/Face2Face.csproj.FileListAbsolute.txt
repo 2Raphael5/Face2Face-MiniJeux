@@ -11,3 +11,17 @@ C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face\Face2Face\Face2
 C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face\Face2Face\Face2Face\obj\Debug\Face2Face.exe
 C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face\Face2Face\Face2Face\obj\Debug\Face2Face.pdb
 C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face\Face2Face\Face2Face\obj\Debug\Face2Face.exe.config
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\bin\Debug\Face2Face.exe.config
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\bin\Debug\Face2Face.exe
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\bin\Debug\Face2Face.pdb
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.exe.config
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Chifoumi.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Form1.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Morpion.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Properties.Resources.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Puissance4.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.exe
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.pdb

@@ -19,8 +19,8 @@ namespace Face2Face
         string player1Name;
         string player2Name;
 
-        List<Form> gameList = new List<Form>();
-        List<Form> gameListRetired = new List<Form>();
+        public List<Form> gameList = new List<Form>();
+        public List<Form> gameListRetired = new List<Form>();
         private void Form1_Load(object sender, EventArgs e)
         {
             gameList.Add(new Morpion());
