@@ -26,6 +26,7 @@ namespace Face2Face
             listeJeu.gameList.Add(new Morpion());
             listeJeu.gameList.Add(new Puissance4());
             listeJeu.gameList.Add(new Chifoumi());
+            listeJeu.gameList.Add(new Mastermind());
         }
 
         private void btnStartGame_Click(object sender, EventArgs e)
