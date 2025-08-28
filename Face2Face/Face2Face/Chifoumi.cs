@@ -25,7 +25,7 @@ namespace Face2Face
         private int phase = 0;
         private double timer = 0.0;
         private int tempsTimer = 3;
-        private int pointsMax = 2;
+        private int pointsMax = 5;
         private Choix choixJ1;
         private Choix choixJ2;
         public Chifoumi()

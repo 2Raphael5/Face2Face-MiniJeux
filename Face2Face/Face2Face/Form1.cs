@@ -18,9 +18,7 @@ namespace Face2Face
         }
         string player1Name;
         string player2Name;
-
-        public List<Form> gameList = new List<Form>();
-        public List<Form> gameListRetired = new List<Form>();
+        Random rnd;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -38,8 +36,8 @@ namespace Face2Face
         }
         public void ChoseNewGame()
         {
-            Random rnd = new Random();
-            int randomGameIndex = rnd.Next(0, gameList.Count);
+            rnd = new Random();
+            int randomGameIndex = rnd.Next(0, listeJeu.gameList.Count);
             listeJeu.gameList[randomGameIndex].Show();
             this.Hide();
         }
