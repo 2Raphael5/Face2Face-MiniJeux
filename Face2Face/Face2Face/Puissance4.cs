@@ -16,10 +16,252 @@ namespace Face2Face
         {
             InitializeComponent();
         }
+        #region Création Liste label
+        List<Label> colonneLabel1 = new List<Label>();
+        List<Label> colonneLabel2 = new List<Label>();
+        List<Label> colonneLabel3 = new List<Label>();
+        List<Label> colonneLabel4 = new List<Label>();
+        List<Label> colonneLabel5 = new List<Label>();
+        List<Label> colonneLabel6 = new List<Label>();
+        List<Label> colonneLabel7 = new List<Label>();
 
+        List<Label> ligneLabel1 = new List<Label>();
+        List<Label> ligneLabel2 = new List<Label>();
+        List<Label> ligneLabel3 = new List<Label>();
+        List<Label> ligneLabel4 = new List<Label>();
+        List<Label> ligneLabel5 = new List<Label>();
+        List<Label> ligneLabel6 = new List<Label>();
+        List<Label> ligneLabel7 = new List<Label>();
+        #endregion
+
+        public bool player1Turn;
         private void Puissance4_Load(object sender, EventArgs e)
         {
+            player1Turn = true;
+            AddAllCollumn();
+            AddAllLine();
+        }
+        public void AddAllCollumn()
+        {
+            colonneLabel1.Add(lblCase1);
+            colonneLabel1.Add(lblCase8);
+            colonneLabel1.Add(lblCase15);
+            colonneLabel1.Add(lblCase22);
+            colonneLabel1.Add(lblCase29);
+            colonneLabel1.Add(lblCase36);
 
+            colonneLabel2.Add(lblCase2);
+            colonneLabel2.Add(lblCase9);
+            colonneLabel2.Add(lblCase16);
+            colonneLabel2.Add(lblCase23);
+            colonneLabel2.Add(lblCase30);
+            colonneLabel2.Add(lblCase37);
+
+            colonneLabel3.Add(lblCase3);
+            colonneLabel3.Add(lblCase10);
+            colonneLabel3.Add(lblCase17);
+            colonneLabel3.Add(lblCase24);
+            colonneLabel3.Add(lblCase31);
+            colonneLabel3.Add(lblCase38);
+
+            colonneLabel4.Add(lblCase4);
+            colonneLabel4.Add(lblCase11);
+            colonneLabel4.Add(lblCase18);
+            colonneLabel4.Add(lblCase25);
+            colonneLabel4.Add(lblCase32);
+            colonneLabel4.Add(lblCase39);
+
+            colonneLabel5.Add(lblCase5);
+            colonneLabel5.Add(lblCase12);
+            colonneLabel5.Add(lblCase19);
+            colonneLabel5.Add(lblCase26);
+            colonneLabel5.Add(lblCase33);
+            colonneLabel5.Add(lblCase40);
+
+            colonneLabel6.Add(lblCase6);
+            colonneLabel6.Add(lblCase13);
+            colonneLabel6.Add(lblCase20);
+            colonneLabel6.Add(lblCase27);
+            colonneLabel6.Add(lblCase34);
+            colonneLabel6.Add(lblCase41);
+
+            colonneLabel7.Add(lblCase7);
+            colonneLabel7.Add(lblCase14);
+            colonneLabel7.Add(lblCase21);
+            colonneLabel7.Add(lblCase28);
+            colonneLabel7.Add(lblCase35);
+            colonneLabel7.Add(lblCase42);
+        }
+        public void AddAllLine()
+        {
+            ligneLabel1.Add(lblCase1);
+            ligneLabel1.Add(lblCase2);
+            ligneLabel1.Add(lblCase3);
+            ligneLabel1.Add(lblCase4);
+            ligneLabel1.Add(lblCase5);
+            ligneLabel1.Add(lblCase6);
+            ligneLabel1.Add(lblCase7);
+
+            ligneLabel2.Add(lblCase8);
+            ligneLabel2.Add(lblCase9);
+            ligneLabel2.Add(lblCase10);
+            ligneLabel2.Add(lblCase11);
+            ligneLabel2.Add(lblCase12);
+            ligneLabel2.Add(lblCase13);
+            ligneLabel2.Add(lblCase14);
+
+            ligneLabel3.Add(lblCase15);
+            ligneLabel3.Add(lblCase16);
+            ligneLabel3.Add(lblCase17);
+            ligneLabel3.Add(lblCase18);
+            ligneLabel3.Add(lblCase19);
+            ligneLabel3.Add(lblCase20);
+            ligneLabel3.Add(lblCase21);
+
+            ligneLabel4.Add(lblCase22);
+            ligneLabel4.Add(lblCase23);
+            ligneLabel4.Add(lblCase24);
+            ligneLabel4.Add(lblCase25);
+            ligneLabel4.Add(lblCase26);
+            ligneLabel4.Add(lblCase27);
+            ligneLabel4.Add(lblCase28);
+
+            ligneLabel5.Add(lblCase29);
+            ligneLabel5.Add(lblCase30);
+            ligneLabel5.Add(lblCase31);
+            ligneLabel5.Add(lblCase32);
+            ligneLabel5.Add(lblCase33);
+            ligneLabel5.Add(lblCase34);
+            ligneLabel5.Add(lblCase35);
+
+            ligneLabel6.Add(lblCase36);
+            ligneLabel6.Add(lblCase37);
+            ligneLabel6.Add(lblCase38);
+            ligneLabel6.Add(lblCase39);
+            ligneLabel6.Add(lblCase40);
+            ligneLabel6.Add(lblCase41);
+            ligneLabel6.Add(lblCase42);
+        }
+        #region Click event
+        private void ClickColumn1(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel1);
+        }
+        private void ClickColumn2(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel2);
+        }
+
+        private void ClickColumn3(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel3);
+        }
+
+        private void ClickColumn4(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel4);
+        }
+
+        private void ClickColumn5(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel5);
+        }
+
+        private void ClickColumn6(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel6);
+        }
+
+        private void ClickColumn7(object sender, EventArgs e)
+        {
+            ColoredCase(colonneLabel7);
+        }
+        #endregion
+        
+        void ColoredCase(List<Label> listLabel)
+        {
+
+            bool continuer = true;
+            for (int i = 0; i < listLabel.Count - 1; i++)
+            {
+                if (listLabel[i].BackColor == Color.DeepSkyBlue && listLabel[i + 1].BackColor != Color.DeepSkyBlue)
+                {
+                    continuer = false;
+                    if (player1Turn)
+                    {
+                        listLabel[i].BackColor = Color.Red;
+                        player1Turn = false;
+                    }
+                    else
+                    {
+                        listLabel[i].BackColor = Color.Yellow;
+                        player1Turn = true;
+                    }
+                }
+            }
+            if (continuer)
+            {
+                if (player1Turn)
+                {
+                    listLabel[listLabel.Count-1].BackColor = Color.Red;
+                    player1Turn = false;
+                }
+                else
+                {
+                    listLabel[listLabel.Count - 1].BackColor = Color.Yellow;
+                    player1Turn = true;
+                }
+            }
+            VerifyColumn(listLabel);
+        }
+        void VerifyColumn(List<Label> listLabel)
+        {
+            for (int i = 0; i <= listLabel.Count - 4; i++)
+            {
+                if (listLabel[i].BackColor != Color.DeepSkyBlue)
+                {
+                    if (listLabel[i].BackColor == listLabel[i + 1].BackColor &&
+                        listLabel[i].BackColor == listLabel[i + 2].BackColor &&
+                        listLabel[i].BackColor == listLabel[i + 3].BackColor)
+                    {
+                        if (listLabel[i].BackColor == Color.Red)
+                        {
+                            MessageBox.Show("Le joueur 1 a gagné !");
+                        }
+                        else if (listLabel[i].BackColor == Color.Yellow)
+                        {
+                            MessageBox.Show("Le joueur 2 a gagné !");
+                        }
+                    }
+                }
+            }
+        }
+        void VerifyLines()
+        {
+            List<List<Label>> toutesLesLignes = new List<List<Label>>()
+    {
+        ligneLabel1, ligneLabel2, ligneLabel3,
+        ligneLabel4, ligneLabel5, ligneLabel6
+    };
+
+            foreach (var ligne in toutesLesLignes)
+            {
+                for (int i = 0; i <= ligne.Count - 4; i++)
+                {
+                    if (ligne[i].BackColor != Color.DeepSkyBlue)
+                    {
+                        if (ligne[i].BackColor == ligne[i + 1].BackColor &&
+                            ligne[i].BackColor == ligne[i + 2].BackColor &&
+                            ligne[i].BackColor == ligne[i + 3].BackColor)
+                        {
+                            if (ligne[i].BackColor == Color.Red)
+                                MessageBox.Show("Le joueur 1 a gagné (horizontale) !");
+                            else if (ligne[i].BackColor == Color.Yellow)
+                                MessageBox.Show("Le joueur 2 a gagné (horizontale) !");
+                        }
+                    }
+                }
+            }
         }
     }
 }
