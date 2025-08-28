@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblScoreJ1 = new System.Windows.Forms.Label();
+            this.lblScoreJ2 = new System.Windows.Forms.Label();
             this.pbxFeuilleJ1 = new System.Windows.Forms.PictureBox();
             this.pbxCiseauJ1 = new System.Windows.Forms.PictureBox();
             this.pbxPierreJ1 = new System.Windows.Forms.PictureBox();
@@ -48,8 +48,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblTimer = new System.Windows.Forms.Label();
+            this.lblPhase = new System.Windows.Forms.Label();
+            this.lblResultat = new System.Windows.Forms.Label();
+            this.btnNextGame = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFeuilleJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCiseauJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPierreJ1)).BeginInit();
@@ -80,25 +82,25 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Joueur 2";
             // 
-            // label3
+            // lblScoreJ1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(53, 74);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "0";
+            this.lblScoreJ1.AutoSize = true;
+            this.lblScoreJ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScoreJ1.Location = new System.Drawing.Point(53, 74);
+            this.lblScoreJ1.Name = "lblScoreJ1";
+            this.lblScoreJ1.Size = new System.Drawing.Size(25, 25);
+            this.lblScoreJ1.TabIndex = 2;
+            this.lblScoreJ1.Text = "0";
             // 
-            // label4
+            // lblScoreJ2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(698, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "0";
+            this.lblScoreJ2.AutoSize = true;
+            this.lblScoreJ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScoreJ2.Location = new System.Drawing.Point(698, 74);
+            this.lblScoreJ2.Name = "lblScoreJ2";
+            this.lblScoreJ2.Size = new System.Drawing.Size(25, 25);
+            this.lblScoreJ2.TabIndex = 3;
+            this.lblScoreJ2.Text = "0";
             // 
             // pbxFeuilleJ1
             // 
@@ -132,7 +134,7 @@
             // 
             // pbxChoixJ2
             // 
-            this.pbxChoixJ2.Location = new System.Drawing.Point(487, 102);
+            this.pbxChoixJ2.Location = new System.Drawing.Point(514, 102);
             this.pbxChoixJ2.Name = "pbxChoixJ2";
             this.pbxChoixJ2.Size = new System.Drawing.Size(209, 169);
             this.pbxChoixJ2.TabIndex = 5;
@@ -176,15 +178,19 @@
             this.pbxPierreJ2.TabIndex = 9;
             this.pbxPierreJ2.TabStop = false;
             // 
+            // tmrGame
+            // 
+            this.tmrGame.Tick += new System.EventHandler(this.tmrGame_Tick);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(113, 380);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 25);
+            this.label5.Size = new System.Drawing.Size(29, 25);
             this.label5.TabIndex = 12;
-            this.label5.Text = "A";
+            this.label5.Text = "Q";
             // 
             // label6
             // 
@@ -202,9 +208,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(258, 380);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 25);
+            this.label7.Size = new System.Drawing.Size(27, 25);
             this.label7.TabIndex = 14;
-            this.label7.Text = "D";
+            this.label7.Text = "E";
             // 
             // label8
             // 
@@ -212,9 +218,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(185, 380);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(27, 25);
+            this.label8.Size = new System.Drawing.Size(33, 25);
             this.label8.TabIndex = 15;
-            this.label8.Text = "S";
+            this.label8.Text = "W";
             // 
             // label9
             // 
@@ -236,33 +242,55 @@
             this.label10.TabIndex = 17;
             this.label10.Text = "↓";
             // 
-            // label11
+            // lblTimer
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(353, 59);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(71, 25);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Timer";
+            this.lblTimer.AutoSize = true;
+            this.lblTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimer.Location = new System.Drawing.Point(360, 111);
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(71, 25);
+            this.lblTimer.TabIndex = 18;
+            this.lblTimer.Text = "Timer";
             // 
-            // label12
+            // lblPhase
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(315, 22);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 25);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "Phase : Début";
+            this.lblPhase.AutoSize = true;
+            this.lblPhase.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhase.Location = new System.Drawing.Point(289, 22);
+            this.lblPhase.Name = "lblPhase";
+            this.lblPhase.Size = new System.Drawing.Size(161, 25);
+            this.lblPhase.TabIndex = 19;
+            this.lblPhase.Text = "Phase : Début";
+            // 
+            // lblResultat
+            // 
+            this.lblResultat.AutoSize = true;
+            this.lblResultat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultat.Location = new System.Drawing.Point(277, 60);
+            this.lblResultat.Name = "lblResultat";
+            this.lblResultat.Size = new System.Drawing.Size(0, 25);
+            this.lblResultat.TabIndex = 20;
+            // 
+            // btnNextGame
+            // 
+            this.btnNextGame.Location = new System.Drawing.Point(356, 190);
+            this.btnNextGame.Name = "btnNextGame";
+            this.btnNextGame.Size = new System.Drawing.Size(75, 23);
+            this.btnNextGame.TabIndex = 21;
+            this.btnNextGame.Text = "Prochain jeu";
+            this.btnNextGame.UseVisualStyleBackColor = true;
+            this.btnNextGame.Visible = false;
+            this.btnNextGame.Click += new System.EventHandler(this.btnNextGame_Click);
             // 
             // Chifoumi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.btnNextGame);
+            this.Controls.Add(this.lblResultat);
+            this.Controls.Add(this.lblPhase);
+            this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -277,12 +305,13 @@
             this.Controls.Add(this.pbxPierreJ1);
             this.Controls.Add(this.pbxChoixJ2);
             this.Controls.Add(this.pbxChoixJ1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblScoreJ2);
+            this.Controls.Add(this.lblScoreJ1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Chifoumi";
             this.Text = "Chifoumi";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Chifoumi_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pbxFeuilleJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCiseauJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPierreJ1)).EndInit();
@@ -300,8 +329,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblScoreJ1;
+        private System.Windows.Forms.Label lblScoreJ2;
         private System.Windows.Forms.PictureBox pbxChoixJ1;
         private System.Windows.Forms.PictureBox pbxChoixJ2;
         private System.Windows.Forms.PictureBox pbxPierreJ1;
@@ -317,7 +346,9 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblTimer;
+        private System.Windows.Forms.Label lblPhase;
+        private System.Windows.Forms.Label lblResultat;
+        private System.Windows.Forms.Button btnNextGame;
     }
 }

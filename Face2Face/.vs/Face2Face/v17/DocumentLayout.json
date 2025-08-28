@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\a_prog\\face2face-minijeux\\face2face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\morpion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\morpion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\a_prog\\face2face-minijeux\\face2face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\morpion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\morpion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\a_prog\\face2face-minijeux\\face2face\\face2face\\listejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\listejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,15 +34,28 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Chifoumi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
+              "DocumentIndex": 1,
+              "Title": "Chifoumi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
               "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
+              "RelativeToolTip": "Face2Face\\Chifoumi.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T08:31:14.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chifoumi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
+              "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
               "RelativeToolTip": "Face2Face\\Chifoumi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T09:28:54.522Z",
@@ -50,49 +63,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Morpion.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Morpion.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs",
-              "RelativeToolTip": "Face2Face\\Morpion.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowMAAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "listeJeu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\listeJeu.cs",
+              "RelativeDocumentMoniker": "Face2Face\\listeJeu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\listeJeu.cs",
+              "RelativeToolTip": "Face2Face\\listeJeu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:27:02.595Z",
+              "WhenOpened": "2025-08-28T09:25:11.454Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Morpion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Morpion.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs [Design]",
-              "RelativeToolTip": "Face2Face\\Morpion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:27:02.688Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeToolTip": "Face2Face\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:27:02.689Z",
+              "WhenOpened": "2025-08-28T08:37:17.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs [Design]",
               "RelativeToolTip": "Face2Face\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T09:27:02.689Z",

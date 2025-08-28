@@ -21,11 +21,13 @@ namespace Face2Face
 
         public List<Form> gameList = new List<Form>();
         public List<Form> gameListRetired = new List<Form>();
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            gameList.Add(new Morpion());
-            gameList.Add(new Puissance4());
-            gameList.Add(new Chifoumi());
+
+            listeJeu.gameList.Add(new Morpion());
+            listeJeu.gameList.Add(new Puissance4());
+            listeJeu.gameList.Add(new Chifoumi());
         }
 
         private void btnStartGame_Click(object sender, EventArgs e)
@@ -38,7 +40,7 @@ namespace Face2Face
         {
             Random rnd = new Random();
             int randomGameIndex = rnd.Next(0, gameList.Count);
-            gameList[randomGameIndex].Show();
+            listeJeu.gameList[randomGameIndex].Show();
             this.Hide();
         }
     }
