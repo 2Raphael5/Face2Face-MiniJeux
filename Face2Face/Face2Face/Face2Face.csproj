@@ -85,6 +85,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mastermind.resx">
+      <DependentUpon>Mastermind.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Morpion.resx">
       <DependentUpon>Morpion.cs</DependentUpon>
     </EmbeddedResource>

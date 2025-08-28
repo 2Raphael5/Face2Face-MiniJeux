@@ -60,6 +60,7 @@ namespace Face2Face
                 pbxChoixJ1.Image = null;
                 pbxChoixJ2.Image = null;
                 lblResultat.Text = "";
+                tempsTimer = 3;
             }
             else if (phase == 2)
             {
@@ -69,6 +70,7 @@ namespace Face2Face
                 checkVictoire();
                 choixJ1 = Choix.aucun;
                 choixJ2 = Choix.aucun;
+                tempsTimer = 2;
             }
             else
             {
@@ -135,25 +137,22 @@ namespace Face2Face
             }
             int scoreJ1 = Convert.ToInt32(lblScoreJ1.Text);
             int scoreJ2 = Convert.ToInt32(lblScoreJ2.Text);
-            if(scoreJ1 < pointsMax - 1 && scoreJ2 < pointsMax - 1)
+            if (lblResultat.Text == victoireJ1)
             {
-                if (lblResultat.Text == victoireJ1)
-                {
 
-                    scoreJ1++;
-                    lblScoreJ1.Text = scoreJ1.ToString();
-                }
-                else if(lblResultat.Text == victoireJ2)
-                {
-                    scoreJ2++;
-                    lblScoreJ2.Text = scoreJ2.ToString();
-                }
+                scoreJ1++;
+                lblScoreJ1.Text = scoreJ1.ToString();
             }
-            else
+            else if (lblResultat.Text == victoireJ2)
+            {
+                scoreJ2++;
+                lblScoreJ2.Text = scoreJ2.ToString();
+            }
+            if (scoreJ1 == pointsMax && scoreJ2 == pointsMax)
             {
                 tmrGame.Stop();
                 btnNextGame.Visible = true;
-                if(scoreJ1 == 5)
+                if (scoreJ1 == 5)
                 {
                     lblResultat.Text = "Bravo j1 pour ta victoire";
                 }
@@ -161,7 +160,7 @@ namespace Face2Face
                 {
                     lblResultat.Text = "Bravo j2 pour ta victoire";
                 }
-            }
+            }            
         }
 
         private void Chifoumi_KeyDown(object sender, KeyEventArgs e)
