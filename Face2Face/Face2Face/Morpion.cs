@@ -191,6 +191,7 @@ namespace Face2Face
             if (joueurGagnant!="")
             {
                 accueil.ChoseNewGame();
+                this.Close();
             }
         }
     }

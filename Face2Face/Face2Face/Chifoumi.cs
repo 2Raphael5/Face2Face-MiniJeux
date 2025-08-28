@@ -148,7 +148,8 @@ namespace Face2Face
                 scoreJ2++;
                 lblScoreJ2.Text = scoreJ2.ToString();
             }
-            if (scoreJ1 == pointsMax && scoreJ2 == pointsMax)
+
+            if (scoreJ1 == pointsMax || scoreJ2 == pointsMax)
             {
                 tmrGame.Stop();
                 btnNextGame.Visible = true;
