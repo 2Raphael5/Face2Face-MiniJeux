@@ -236,6 +236,8 @@ namespace Face2Face
                             gameMaster.scoreJ2++;
                             MessageBox.Show("Le joueur 2 a gagné !");
                         }
+                        new Form1().ChoseNewGame();
+                        this.Close();
                     }
                 }
             }
@@ -262,6 +264,8 @@ namespace Face2Face
                                 MessageBox.Show("Le joueur 1 a gagné!");
                             else if (ligne[i].BackColor == Color.Yellow)
                                 MessageBox.Show("Le joueur 2 a gagné!");
+                            new Form1().ChoseNewGame();
+                            this.Close();
                         }
                     }
                 }
@@ -317,6 +321,8 @@ namespace Face2Face
                 gameMaster.scoreJ2++;
                 MessageBox.Show("Le joueur 2 a gagné !");
             }
+            new Form1().ChoseNewGame();
+            this.Close();
         }
         Label[,] GetGrid()
         {
