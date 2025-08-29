@@ -207,6 +207,27 @@ namespace Face2Face
         {
             lblJ1.Text = gameMaster.pseudoJ1;
             lblJ2.Text = gameMaster.pseudoJ2;
+
+            for (int i = 1; i <= gameMaster.scoreJ1; i++)
+            {
+                string name = $"lblScore{i}J1";
+                Control[] control = this.Controls.Find(name,true);
+                foreach (Control item in control)
+                {
+                    Label label = item as Label;
+                    label.BackColor = Color.Black;
+                }
+            }
+            for (int i = 1; i <= gameMaster.scoreJ2; i++)
+            {
+                string name = $"lblScore{i}J2";
+                Control[] control = this.Controls.Find(name, true);
+                foreach (Control item in control)
+                {
+                    Label label = item as Label;
+                    label.BackColor = Color.Black;
+                }
+            }
         }
     }
 }
