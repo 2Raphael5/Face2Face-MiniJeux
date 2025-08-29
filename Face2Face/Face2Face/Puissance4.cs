@@ -177,7 +177,7 @@ namespace Face2Face
             ColoredCase(colonneLabel7);
         }
         #endregion
-        
+
         void ColoredCase(List<Label> listLabel)
         {
 
@@ -203,7 +203,7 @@ namespace Face2Face
             {
                 if (player1Turn)
                 {
-                    listLabel[listLabel.Count-1].BackColor = Color.Red;
+                    listLabel[listLabel.Count - 1].BackColor = Color.Red;
                     player1Turn = false;
                 }
                 else
@@ -213,6 +213,8 @@ namespace Face2Face
                 }
             }
             VerifyColumn(listLabel);
+            VerifyLines();
+            VerifyDiagonal();
         }
         void VerifyColumn(List<Label> listLabel)
         {
@@ -241,10 +243,10 @@ namespace Face2Face
         void VerifyLines()
         {
             List<List<Label>> toutesLesLignes = new List<List<Label>>()
-    {
+        {
         ligneLabel1, ligneLabel2, ligneLabel3,
         ligneLabel4, ligneLabel5, ligneLabel6
-    };
+        };
 
             foreach (var ligne in toutesLesLignes)
             {
@@ -257,18 +259,85 @@ namespace Face2Face
                             ligne[i].BackColor == ligne[i + 3].BackColor)
                         {
                             if (ligne[i].BackColor == Color.Red)
-                                MessageBox.Show("Le joueur 1 a gagné (horizontale) !");
+                                MessageBox.Show("Le joueur 1 a gagné!");
                             else if (ligne[i].BackColor == Color.Yellow)
-                                MessageBox.Show("Le joueur 2 a gagné (horizontale) !");
+                                MessageBox.Show("Le joueur 2 a gagné!");
                         }
                     }
                 }
             }
         }
-
-        void victoire()
+        void VerifyDiagonal()
         {
+            Label[,] grid = GetGrid();
 
+            // Vérification ↘ (haut-gauche vers bas-droite)
+            for (int row = 0; row < 6 - 3; row++) // 6 lignes - 3 pour rester dans la grille
+            {
+                for (int col = 0; col < 7 - 3; col++) // 7 colonnes - 3
+                {
+                    if (grid[row, col].BackColor != Color.DeepSkyBlue)
+                    {
+                        if (grid[row, col].BackColor == grid[row + 1, col + 1].BackColor &&
+                            grid[row, col].BackColor == grid[row + 2, col + 2].BackColor &&
+                            grid[row, col].BackColor == grid[row + 3, col + 3].BackColor)
+                        {
+                            DeclareWinner(grid[row, col].BackColor);
+                        }
+                    }
+                }
+            }
+
+            // Vérification ↙ (haut-droite vers bas-gauche)
+            for (int row = 0; row < 6 - 3; row++)
+            {
+                for (int col = 3; col < 7; col++) // commence à 3 car on doit pouvoir descendre à gauche
+                {
+                    if (grid[row, col].BackColor != Color.DeepSkyBlue)
+                    {
+                        if (grid[row, col].BackColor == grid[row + 1, col - 1].BackColor &&
+                            grid[row, col].BackColor == grid[row + 2, col - 2].BackColor &&
+                            grid[row, col].BackColor == grid[row + 3, col - 3].BackColor)
+                        {
+                            DeclareWinner(grid[row, col].BackColor);
+                        }
+                    }
+                }
+            }
         }
+        void DeclareWinner(Color color)
+        {
+            if (color == Color.Red)
+            {
+                gameMaster.scoreJ1++;
+                MessageBox.Show("Le joueur 1 a gagné !");
+            }
+            else if (color == Color.Yellow)
+            {
+                gameMaster.scoreJ2++;
+                MessageBox.Show("Le joueur 2 a gagné !");
+            }
+        }
+        Label[,] GetGrid()
+        {
+            Label[,] grid = new Label[6, 7];
+
+            List<List<Label>> toutesLesLignes = new List<List<Label>>()
+    {
+        ligneLabel1, ligneLabel2, ligneLabel3,
+        ligneLabel4, ligneLabel5, ligneLabel6
+    };
+
+            for (int row = 0; row < 6; row++)
+            {
+                for (int col = 0; col < 7; col++)
+                {
+                    grid[row, col] = toutesLesLignes[row][col];
+                }
+            }
+
+            return grid;
+        }
+
     }
 }
