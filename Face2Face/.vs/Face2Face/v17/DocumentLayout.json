@@ -1,48 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> Stashed changes
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\a_prog\\face2face-minijeux\\face2face\\face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\puissance4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\chifoumi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,150 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 3,
-=======
-          "SelectedChildIndex": 2,
->>>>>>> Stashed changes
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs [Design]",
-              "RelativeToolTip": "Face2Face\\Form1.cs [Design]",
-=======
+              "RelativeToolTip": "..\\..\\..\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-08-29T09:28:43.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Puissance4.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
+              "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
+              "RelativeToolTip": "Face2Face\\Puissance4.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:28:43.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Puissance4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
+              "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-08-29T09:28:43.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Chifoumi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
+              "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
+              "RelativeToolTip": "Face2Face\\Chifoumi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:28:43.754Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "gameMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
+              "RelativeDocumentMoniker": "Face2Face\\gameMaster.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
+              "RelativeToolTip": "Face2Face\\gameMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:28:43.755Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Chifoumi.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
               "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
               "RelativeToolTip": "Face2Face\\Chifoumi.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAiwNIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:13:09.669Z",
+              "WhenOpened": "2025-08-29T09:28:43.755Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chifoumi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
-              "RelativeToolTip": "Face2Face\\Chifoumi.cs [Design]",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:15:21.086Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 0,
-              "Title": "Puissance4.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
-              "RelativeToolTip": "Face2Face\\Puissance4.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowF0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:09:16.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Puissance4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs [Design]",
-              "RelativeToolTip": "Face2Face\\Puissance4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:09:14.898Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Chifoumi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:29:11.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "gameMaster.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
-              "RelativeDocumentMoniker": "Face2Face\\gameMaster.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
-              "RelativeToolTip": "Face2Face\\gameMaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:27:37.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Chifoumi.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
-              "RelativeToolTip": "Face2Face\\Chifoumi.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAiwMkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:26:30.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeToolTip": "Face2Face\\Form1.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAewDQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:23:13.08Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-08-29T09:28:43.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Mastermind.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs",
-              "RelativeDocumentMoniker": "Face2Face\\Mastermind.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs",
-              "RelativeToolTip": "Face2Face\\Mastermind.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T11:08:21.692Z"
-=======
-              "DocumentIndex": 2,
-              "Title": "Mastermind.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs",
               "RelativeDocumentMoniker": "Face2Face\\Mastermind.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs [Design]",
-              "RelativeToolTip": "Face2Face\\Mastermind.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-08-29T09:09:51.209Z"
->>>>>>> Stashed changes
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\A_PROG\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs",
+              "RelativeToolTip": "Face2Face\\Mastermind.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAH4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:28:43.757Z",
+              "EditorCaption": ""
             }
           ]
         }

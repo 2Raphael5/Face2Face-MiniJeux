@@ -124,7 +124,7 @@ namespace Face2Face
         private void Mastermind_Load(object sender, EventArgs e)
         {
             lblJ1.Text = gameMaster.pseudoJ1;
-            lblJ2.Text = gameMaster.pseudoJ1;
+            lblJ2.Text = gameMaster.pseudoJ2;
             listColor = new List<Color> {
                 Color.Red,
                 Color.Blue,
