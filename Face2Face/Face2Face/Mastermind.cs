@@ -56,10 +56,12 @@ namespace Face2Face
             {
                 if (tourJ1)
                 {
+                    gameMaster.scoreJ1++;
                     lblFin.Text = "Bravo joueur 1 tu a gagné";
                 }
                 else
                 {
+                    gameMaster.scoreJ2++;
                     lblFin.Text = "Bravo joueur 2 tu a gagné";
                 }
                 btnFin.Visible = true;
@@ -121,6 +123,8 @@ namespace Face2Face
         }
         private void Mastermind_Load(object sender, EventArgs e)
         {
+            lblJ1.Text = gameMaster.pseudoJ1;
+            lblJ2.Text = gameMaster.pseudoJ1;
             listColor = new List<Color> {
                 Color.Red,
                 Color.Blue,

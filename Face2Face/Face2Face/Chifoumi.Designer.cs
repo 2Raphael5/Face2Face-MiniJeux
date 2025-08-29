@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblJ1 = new System.Windows.Forms.Label();
+            this.lblJ2 = new System.Windows.Forms.Label();
             this.lblScoreJ1 = new System.Windows.Forms.Label();
             this.lblScoreJ2 = new System.Windows.Forms.Label();
             this.pbxFeuilleJ1 = new System.Windows.Forms.PictureBox();
@@ -62,25 +62,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxPierreJ2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblJ1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(90, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Joueur 1 ";
+            this.lblJ1.AutoSize = true;
+            this.lblJ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ1.Location = new System.Drawing.Point(90, 29);
+            this.lblJ1.Name = "lblJ1";
+            this.lblJ1.Size = new System.Drawing.Size(79, 18);
+            this.lblJ1.TabIndex = 0;
+            this.lblJ1.Text = "Joueur 1 ";
             // 
-            // label2
+            // lblJ2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(622, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Joueur 2";
+            this.lblJ2.AutoSize = true;
+            this.lblJ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ2.Location = new System.Drawing.Point(622, 29);
+            this.lblJ2.Name = "lblJ2";
+            this.lblJ2.Size = new System.Drawing.Size(74, 18);
+            this.lblJ2.TabIndex = 1;
+            this.lblJ2.Text = "Joueur 2";
             // 
             // lblScoreJ1
             // 
@@ -307,13 +307,14 @@
             this.Controls.Add(this.pbxChoixJ1);
             this.Controls.Add(this.lblScoreJ2);
             this.Controls.Add(this.lblScoreJ1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblJ2);
+            this.Controls.Add(this.lblJ1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Chifoumi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chifoumi";
+            this.Load += new System.EventHandler(this.Chifoumi_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Chifoumi_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pbxFeuilleJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCiseauJ1)).EndInit();
@@ -330,8 +331,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblJ1;
+        private System.Windows.Forms.Label lblJ2;
         private System.Windows.Forms.Label lblScoreJ1;
         private System.Windows.Forms.Label lblScoreJ2;
         private System.Windows.Forms.PictureBox pbxChoixJ1;

@@ -226,10 +226,12 @@ namespace Face2Face
                     {
                         if (listLabel[i].BackColor == Color.Red)
                         {
+                            gameMaster.scoreJ1++;
                             MessageBox.Show("Le joueur 1 a gagné !");
                         }
                         else if (listLabel[i].BackColor == Color.Yellow)
                         {
+                            gameMaster.scoreJ2++;
                             MessageBox.Show("Le joueur 2 a gagné !");
                         }
                     }
@@ -262,6 +264,11 @@ namespace Face2Face
                     }
                 }
             }
+        }
+
+        void victoire()
+        {
+
         }
     }
 }

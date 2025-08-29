@@ -58,6 +58,8 @@
             this.lblIndication = new System.Windows.Forms.Label();
             this.lblFin = new System.Windows.Forms.Label();
             this.btnFin = new System.Windows.Forms.Button();
+            this.lblJ1 = new System.Windows.Forms.Label();
+            this.lblJ2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblResult1
@@ -319,12 +321,34 @@
             this.btnFin.Visible = false;
             this.btnFin.Click += new System.EventHandler(this.btnFin_Click);
             // 
+            // lblJ1
+            // 
+            this.lblJ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ1.Location = new System.Drawing.Point(56, 67);
+            this.lblJ1.Name = "lblJ1";
+            this.lblJ1.Size = new System.Drawing.Size(100, 23);
+            this.lblJ1.TabIndex = 37;
+            this.lblJ1.Text = "label1";
+            this.lblJ1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblJ2
+            // 
+            this.lblJ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ2.Location = new System.Drawing.Point(601, 67);
+            this.lblJ2.Name = "lblJ2";
+            this.lblJ2.Size = new System.Drawing.Size(100, 23);
+            this.lblJ2.TabIndex = 38;
+            this.lblJ2.Text = "label1";
+            this.lblJ2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Mastermind
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblJ2);
+            this.Controls.Add(this.lblJ1);
             this.Controls.Add(this.btnFin);
             this.Controls.Add(this.lblFin);
             this.Controls.Add(this.lblIndication);
@@ -398,5 +422,7 @@
         private System.Windows.Forms.Label lblIndication;
         private System.Windows.Forms.Label lblFin;
         private System.Windows.Forms.Button btnFin;
+        private System.Windows.Forms.Label lblJ1;
+        private System.Windows.Forms.Label lblJ2;
     }
 }

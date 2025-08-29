@@ -16,31 +16,43 @@ namespace Face2Face
         {
             InitializeComponent();
         }
-        string player1Name;
-        string player2Name;
         Random rnd;
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            listeJeu.gameList.Add(new Morpion());
-            listeJeu.gameList.Add(new Puissance4());
-            listeJeu.gameList.Add(new Chifoumi());
-            listeJeu.gameList.Add(new Mastermind());
+            //gameMaster.gameList.Add(new Morpion());
+            //gameMaster.gameList.Add(new Puissance4());
+            //gameMaster.gameList.Add(new Chifoumi());
+            //gameMaster.gameList.Add(new Mastermind());
+            gameMaster.gameList.Add(new Chifoumi());
         }
 
         private void btnStartGame_Click(object sender, EventArgs e)
         {
-            player1Name = tbxPlayer1.Text;
-            player2Name = tbxPlayer2.Text;
+            gameMaster.pseudoJ1 = tbxPlayer1.Text;
+            gameMaster.pseudoJ2 = tbxPlayer2.Text;
             ChoseNewGame();
         }
         public void ChoseNewGame()
         {
             rnd = new Random();
-            int randomGameIndex = rnd.Next(0, listeJeu.gameList.Count);
-            listeJeu.gameList[randomGameIndex].Show();
+            int randomGameIndex = rnd.Next(0, gameMaster.gameList.Count);
+            gameMaster.gameList[randomGameIndex].Show();
             this.Hide();
+        }
+
+        private void lblPseudoJoueur_TextChanged(object sender, EventArgs e)
+        {
+            if(tbxPlayer1.Text != "" && tbxPlayer1.Text.Length >= 2  && tbxPlayer2.Text != "" && tbxPlayer2.Text.Length >= 2)
+            {
+                btnStartGame.Enabled = true;
+            }
+            else
+            {
+
+                btnStartGame.Enabled = false;
+            }
         }
     }
 }

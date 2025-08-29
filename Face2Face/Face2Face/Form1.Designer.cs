@@ -52,6 +52,7 @@
             this.tbxPlayer1.Name = "tbxPlayer1";
             this.tbxPlayer1.Size = new System.Drawing.Size(100, 20);
             this.tbxPlayer1.TabIndex = 1;
+            this.tbxPlayer1.TextChanged += new System.EventHandler(this.lblPseudoJoueur_TextChanged);
             // 
             // tbxPlayer2
             // 
@@ -59,6 +60,7 @@
             this.tbxPlayer2.Name = "tbxPlayer2";
             this.tbxPlayer2.Size = new System.Drawing.Size(100, 20);
             this.tbxPlayer2.TabIndex = 2;
+            this.tbxPlayer2.TextChanged += new System.EventHandler(this.lblPseudoJoueur_TextChanged);
             // 
             // label1
             // 
@@ -80,6 +82,7 @@
             // 
             // btnStartGame
             // 
+            this.btnStartGame.Enabled = false;
             this.btnStartGame.Location = new System.Drawing.Point(299, 298);
             this.btnStartGame.Name = "btnStartGame";
             this.btnStartGame.Size = new System.Drawing.Size(154, 47);
@@ -90,6 +93,7 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.btnStartGame;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;

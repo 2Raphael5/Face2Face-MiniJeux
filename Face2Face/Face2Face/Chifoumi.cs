@@ -156,10 +156,12 @@ namespace Face2Face
                 if (scoreJ1 == 5)
                 {
                     lblResultat.Text = "Bravo j1 pour ta victoire";
+                    gameMaster.scoreJ1++;
                 }
                 else
                 {
                     lblResultat.Text = "Bravo j2 pour ta victoire";
+                    gameMaster.scoreJ2++;
                 }
             }            
         }
@@ -199,6 +201,12 @@ namespace Face2Face
         {
             new Form1().ChoseNewGame();
             this.Close();
+        }
+
+        private void Chifoumi_Load(object sender, EventArgs e)
+        {
+            lblJ1.Text = gameMaster.pseudoJ1;
+            lblJ2.Text = gameMaster.pseudoJ2;
         }
     }
 }
