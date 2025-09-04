@@ -146,35 +146,42 @@ namespace Face2Face
         private void ClickColumn1(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel1);
+            CheckEgality();
         }
         private void ClickColumn2(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel2);
+            CheckEgality();
         }
 
         private void ClickColumn3(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel3);
+            CheckEgality();
         }
 
         private void ClickColumn4(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel4);
+            CheckEgality();
         }
 
         private void ClickColumn5(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel5);
+            CheckEgality();
         }
 
         private void ClickColumn6(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel6);
+            CheckEgality();
         }
 
         private void ClickColumn7(object sender, EventArgs e)
         {
             ColoredCase(colonneLabel7);
+            CheckEgality();
         }
         #endregion
 
@@ -344,6 +351,90 @@ namespace Face2Face
 
             return grid;
         }
-
+        public void CheckEgality()
+        {
+            bool isFree = false;
+            foreach (Label label in colonneLabel1)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel2)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel3)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel4)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel5)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel6)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in colonneLabel7)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            if (!isFree)
+            {
+                MessageBox.Show("Egalité");
+                foreach (Label label in colonneLabel1)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel2)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel3)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel4)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel5)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel6)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in colonneLabel7)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+            }
+        }
     }
 }

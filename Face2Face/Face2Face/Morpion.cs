@@ -89,6 +89,47 @@ namespace Face2Face
                 victoire();
             }
         }
+        public void CheckEgality()
+        {
+            bool isFree = false;
+            foreach (Label label in labelsUp)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in labelsCenter)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            foreach (Label label in labelsDown)
+            {
+                if (label.BackColor == Color.DeepSkyBlue)
+                {
+                    isFree = true;
+                }
+            }
+            if (!isFree)
+            {
+                MessageBox.Show("Egalité");
+                foreach (Label label in labelsUp)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in labelsCenter)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+                foreach (Label label in labelsDown)
+                {
+                    label.BackColor = Color.DeepSkyBlue;
+                }
+            }
+        }
         public void victoire()
         {
             if (player1Turn)
@@ -112,6 +153,7 @@ namespace Face2Face
         }
         private void CaseClick(object sender, EventArgs e)
         {
+
             Label caseClique =  sender as Label;
             if (player1Turn && caseClique.BackColor == Color.DeepSkyBlue)
             {
@@ -130,11 +172,14 @@ namespace Face2Face
             {
                 lblError.Text = "Cette case est déjà coché";
             }
-
             if (joueurGagnant!="")
             {
                 accueil.ChoseNewGame();
                 this.Close();
+            }
+            else
+            {
+                CheckEgality();
             }
         }
     }
