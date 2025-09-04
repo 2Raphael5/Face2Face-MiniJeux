@@ -21,10 +21,11 @@ namespace Face2Face
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            //gameMaster.gameList.Add(new Morpion());
+            gameMaster.gameList.Add(new Morpion());
             gameMaster.gameList.Add(new Puissance4());
-            //gameMaster.gameList.Add(new Chifoumi());
-            //gameMaster.gameList.Add(new Mastermind());
+            gameMaster.gameList.Add(new Chifoumi());
+            gameMaster.gameList.Add(new Mastermind());
+            gameMaster.gameList.Add(new Bataille());
         }
 
         private void btnStartGame_Click(object sender, EventArgs e)

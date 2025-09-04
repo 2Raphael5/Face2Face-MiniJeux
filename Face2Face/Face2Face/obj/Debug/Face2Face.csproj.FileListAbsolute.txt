@@ -41,3 +41,4 @@ C:\Users\Admin\Documents\CFPTI\2025-2026\A_PROG\Face2Face-MiniJeux\Face2Face\Fac
 C:\Users\Admin\Documents\CFPTI\2025-2026\A_PROG\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.pdb
 C:\Users\Admin\Documents\CFPTI\2025-2026\A_PROG\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Mastermind.resources
 C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Mastermind.resources
+C:\Users\Admin\Documents\CFPTI\2025-2026\2Atelier_Prog\Face2Face-MiniJeux\Face2Face\Face2Face\obj\Debug\Face2Face.Bataille.resources
