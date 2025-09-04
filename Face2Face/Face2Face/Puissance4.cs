@@ -244,7 +244,7 @@ namespace Face2Face
                             MessageBox.Show("Le joueur 2 a gagné !");
                         }
                         new Form1().ChoseNewGame();
-                        this.Close();
+                        this.Hide();
                     }
                 }
             }
@@ -272,7 +272,7 @@ namespace Face2Face
                             else if (ligne[i].BackColor == Color.Yellow)
                                 MessageBox.Show("Le joueur 2 a gagné!");
                             new Form1().ChoseNewGame();
-                            this.Close();
+                            this.Hide();
                         }
                     }
                 }

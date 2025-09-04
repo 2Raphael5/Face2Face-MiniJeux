@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|c:\\users\\admin\\documents\\cfpti\\2025-2026\\2atelier_prog\\face2face-minijeux\\face2face\\face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00CAD59-8734-4078-B9E6-91ED028A1ECE}|Face2Face\\Face2Face.csproj|solutionrelative:face2face\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Bataille.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Bataille.cs",
               "RelativeDocumentMoniker": "Face2Face\\Bataille.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bataille.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Bataille.cs",
               "RelativeDocumentMoniker": "Face2Face\\Bataille.cs",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Morpion.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs",
               "RelativeDocumentMoniker": "Face2Face\\Morpion.cs",
@@ -112,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Morpion.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Morpion.cs",
               "RelativeDocumentMoniker": "Face2Face\\Morpion.cs",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Puissance4.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
               "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Puissance4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Puissance4.cs",
               "RelativeDocumentMoniker": "Face2Face\\Puissance4.cs",
@@ -161,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Chifoumi.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
               "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
@@ -173,19 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "gameMaster.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
               "RelativeDocumentMoniker": "Face2Face\\gameMaster.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\gameMaster.cs",
               "RelativeToolTip": "Face2Face\\gameMaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T09:36:08.594Z"
+              "WhenOpened": "2025-08-29T09:36:08.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Chifoumi.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Chifoumi.cs",
               "RelativeDocumentMoniker": "Face2Face\\Chifoumi.cs",
@@ -198,20 +199,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeDocumentMoniker": "Face2Face\\Form1.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Form1.cs",
               "RelativeToolTip": "Face2Face\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAEwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T09:36:08.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Card.cs",
               "RelativeDocumentMoniker": "Face2Face\\Card.cs",
@@ -224,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Mastermind.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CFPTI\\2025-2026\\2Atelier_Prog\\Face2Face-MiniJeux\\Face2Face\\Face2Face\\Mastermind.cs",
               "RelativeDocumentMoniker": "Face2Face\\Mastermind.cs",

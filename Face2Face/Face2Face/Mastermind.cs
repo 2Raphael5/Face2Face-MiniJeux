@@ -238,7 +238,7 @@ namespace Face2Face
         private void btnFin_Click(object sender, EventArgs e)
         {
             new Form1().ChoseNewGame();
-            this.Close();
+            this.Hide();
         }
     }
 }
