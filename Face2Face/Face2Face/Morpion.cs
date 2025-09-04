@@ -116,18 +116,7 @@ namespace Face2Face
             if (!isFree)
             {
                 MessageBox.Show("Egalité");
-                foreach (Label label in labelsUp)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in labelsCenter)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in labelsDown)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
+                Reset();
             }
         }
         public void victoire()
@@ -174,12 +163,28 @@ namespace Face2Face
             }
             if (joueurGagnant!="")
             {
+                Reset();
+                this.Hide();
                 accueil.ChoseNewGame();
-                this.Close();
             }
             else
             {
                 CheckEgality();
+            }
+        }
+        public void Reset()
+        {
+            foreach (Label label in labelsUp)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in labelsCenter)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in labelsDown)
+            {
+                label.BackColor = Color.DeepSkyBlue;
             }
         }
     }

@@ -200,7 +200,8 @@ namespace Face2Face
         private void btnNextGame_Click(object sender, EventArgs e)
         {
             new Form1().ChoseNewGame();
-            this.Close();
+            Reset();
+            this.Hide();
         }
 
         private void Chifoumi_Load(object sender, EventArgs e)
@@ -228,6 +229,10 @@ namespace Face2Face
                     label.BackColor = Color.Black;
                 }
             }
+        }
+        public void Reset()
+        {
+
         }
     }
 }

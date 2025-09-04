@@ -328,8 +328,9 @@ namespace Face2Face
                 gameMaster.scoreJ2++;
                 MessageBox.Show("Le joueur 2 a gagné !");
             }
+            Reset();
+            this.Hide();
             new Form1().ChoseNewGame();
-            this.Close();
         }
         Label[,] GetGrid()
         {
@@ -406,34 +407,38 @@ namespace Face2Face
             if (!isFree)
             {
                 MessageBox.Show("Egalité");
-                foreach (Label label in colonneLabel1)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel2)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel3)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel4)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel5)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel6)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
-                foreach (Label label in colonneLabel7)
-                {
-                    label.BackColor = Color.DeepSkyBlue;
-                }
+                Reset();
+            }
+        }
+        public void Reset()
+        {
+            foreach (Label label in colonneLabel1)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel2)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel3)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel4)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel5)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel6)
+            {
+                label.BackColor = Color.DeepSkyBlue;
+            }
+            foreach (Label label in colonneLabel7)
+            {
+                label.BackColor = Color.DeepSkyBlue;
             }
         }
     }

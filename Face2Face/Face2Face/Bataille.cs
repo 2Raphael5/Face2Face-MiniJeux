@@ -26,8 +26,6 @@ namespace Face2Face
         public Card cardJ2;
         private void Bataille_Load(object sender, EventArgs e)
         {
-            scoreJ1 = 0;
-            scoreJ2 = 0;
             cards.Add(new Card(1, false, Resources.AH));
             cards.Add(new Card(2, false, Resources._2H));
             cards.Add(new Card(3, false, Resources._3H));
@@ -133,15 +131,18 @@ namespace Face2Face
             {
                 gameMaster.scoreJ1++;
                 MessageBox.Show("Le joueur 1 à gagner cette partie");
+                Reset();
+                this.Hide();
                 new Form1().ChoseNewGame();
-                this.Close();
             }
             else if (scoreJ2 == 5)
             {
                 gameMaster.scoreJ2++;
                 MessageBox.Show("Le joueur 2 à gagner cette partie");
+                Reset();
+                this.Hide();
                 new Form1().ChoseNewGame();
-                this.Close();
+
             }
         }
         private void Bataille_KeyUp(object sender, KeyEventArgs e)
@@ -150,6 +151,17 @@ namespace Face2Face
             {
                 DrawCard();
             }
+        }
+        public void Reset()
+        {
+            scoreJ1 = 0;
+            scoreJ2 = 0;
+
+            lblScore1.Text = "Score: " + scoreJ1;
+            lblScore2.Text = "Score: " + scoreJ2;
+
+            pbxJ1.Image = Properties.Resources.b1fv;
+            pbxJ2.Image = Properties.Resources.b1fv;
         }
     }
 }
